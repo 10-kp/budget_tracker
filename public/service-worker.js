@@ -1,4 +1,3 @@
-// TODO: add listener and handler to cache static assets
 const FILES_TO_CACHE = [
   '/',
   '/manifest.webmanifest',
