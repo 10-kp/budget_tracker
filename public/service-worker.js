@@ -21,28 +21,6 @@ self.addEventListener('install', (event) => {
   );
 });
 
-// // The activate handler takes care of cleaning up old caches.
-// self.addEventListener('activate', (event) => {
-//   const currentCaches = [CACHE_NAME, DATA_CACHE_NAME];
-//   event.waitUntil(
-//     caches
-//       .keys()
-//       .then((cacheNames) => {
-//         return cacheNames.filter(
-//           (cacheName) => !currentCaches.includes(cacheName)
-//         );
-//       })
-//       .then((cachesToDelete) => {
-//         return Promise.all(
-//           cachesToDelete.map((cacheToDelete) => {
-//             return caches.delete(cacheToDelete);
-//           })
-//         );
-//       })
-//       .then(() => self.clients.claim())
-//   );
-// });
-
 // fetch assets from cache
 self.addEventListener('fetch', (event) => {
   // cache all get requests to /api routes

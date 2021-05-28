@@ -1,10 +1,11 @@
 body {
-  font-size: 120%;
+  font-size: 100%;
   font-family: Arial;
 }
 
-button, input {
-  font-size: 100%;
+button,
+input {
+  font-size: 80%;
   font-family: Arial;
 }
 
@@ -12,7 +13,8 @@ table {
   width: 100%;
 }
 
-td, th {
+td,
+th {
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
@@ -28,12 +30,12 @@ tr:nth-child(even) {
 
 .wrapper {
   margin: 0 auto;
-  max-width: 825px;
+  max-width: 525px;
   text-align: center;
 }
 
 .total {
-  font-size: 150%;
+  font-size: 100%;
   text-decoration: underline;
 }
 
@@ -44,7 +46,7 @@ tr:nth-child(even) {
 
 .transactions {
   text-align: left;
-  max-height: 300px;
+  max-height: 150px;
   overflow: auto;
   width: 90%;
   margin: 0 auto;
