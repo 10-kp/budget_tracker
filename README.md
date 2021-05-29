@@ -7,7 +7,7 @@
 
 ## Description
 
-This is a Budget Tracker application that allow users to add funds and subtract expenses. This is a progressive web app that will allow for for both online and offline access - where the user can download the app outside the browser. Further, it keeps saving user data locally using the "indexedDB" browser API and sync it back up to the MongoDB database when coming back online (using workerscript).
+This is a Budget Tracker application that allow users to add funds and subtract expenses. This is a progressive web app that will allow for for both online and offline access - where the user can download the app outside the browser. Further, it keeps saving user data locally using the "indexedDB" browser API and sync it back up to the MongoDB database when coming back online using service-worker.
 
 ## Technologies
 
@@ -34,7 +34,7 @@ Feel free to clone or fork this repo if you find it useful. To install dependenc
 
 ## Demo
 
-You can see a demo of this app [here]()
+You can see a demo of this app [here](https://dry-caverns-82787.herokuapp.com/)
 
 ## Page Screenshots
 
