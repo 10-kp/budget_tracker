@@ -55,8 +55,8 @@ function checkDatabase() {
           // Open a transaction on pending db if successful
           // Access pending object store
           // Clear all items in your store
-          const transaction2 = db.transaction(['BudgetStore'], 'readwrite');
-          const store = transaction2.objectStore('BudgetStore');
+          const transaction = db.transaction(['BudgetStore'], 'readwrite');
+          const store = transaction.objectStore('BudgetStore');
           store.clear();
         });
     }

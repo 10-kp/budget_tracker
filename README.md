@@ -23,8 +23,8 @@ This application takes advantage of the following technologies:
 
 - [Progressive web app](https://web.dev/progressive-web-apps/)
 - [Web app manifest](https://web.dev/add-manifest/)
-- [Service worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)
-- [Indexed db](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)
+- [Service Worker](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API)
+- [IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API)
 
 ## Usage and Installation
 
@@ -34,7 +34,7 @@ Feel free to clone or fork this repo if you find it useful. To install dependenc
 
 ## Demo
 
-You can see a demo of this app [here](https://pwa-bdgt-tracker.herokuapp.com/)
+You can see a demo of this app [here]()
 
 ## Page Screenshots
 

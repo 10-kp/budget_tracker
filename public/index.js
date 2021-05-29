@@ -32,14 +32,13 @@ function populateTable() {
     // create and populate a table row
     let tr = document.createElement('tr');
     tr.innerHTML = `
-      <td>${transaction.name}</td>
-      <td>${transaction.value}</td>
-    `;
+        <td>${transaction.name}</td>
+        <td>${transaction.value}</td>
+      `;
 
     tbody.appendChild(tr);
   });
 }
-
 function populateChart() {
   // copy array and reverse it
   let reversed = transactions.slice().reverse();
@@ -61,7 +60,6 @@ function populateChart() {
   if (myChart) {
     myChart.destroy();
   }
-
   let ctx = document.getElementById('myChart').getContext('2d');
 
   myChart = new Chart(ctx, {
@@ -79,7 +77,6 @@ function populateChart() {
     },
   });
 }
-
 function sendTransaction(isAdding) {
   let nameEl = document.querySelector('#t-name');
   let amountEl = document.querySelector('#t-amount');
@@ -104,7 +101,6 @@ function sendTransaction(isAdding) {
   if (!isAdding) {
     transaction.value *= -1;
   }
-
   // add to beginning of current array of data
   transactions.unshift(transaction);
 
